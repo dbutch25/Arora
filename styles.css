@@ -1,0 +1,681 @@
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    margin: 0;
+  }
+  article,
+  aside,
+  footer,
+  header,
+  nav,
+  section {
+    display: block;
+  }
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  figcaption,
+  figure,
+  main {
+    display: block;
+  }
+  figure {
+    margin: 1em 40px;
+  }
+  hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+  }
+  pre {
+    font-family: monospace, monospace;
+    font-size: 1em;
+  }
+  a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+  }
+  abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted;
+  }
+  b,
+  strong {
+    font-weight: inherit;
+  }
+  b,
+  strong {
+    font-weight: bolder;
+  }
+  code,
+  kbd,
+  samp {
+    font-family: monospace, monospace;
+    font-size: 1em;
+  }
+  dfn {
+    font-style: italic;
+  }
+  mark {
+    background-color: #ff0;
+    color: #000;
+  }
+  small {
+    font-size: 80%;
+  }
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  sub {
+    bottom: -0.25em;
+  }
+  sup {
+    top: -0.5em;
+  }
+  audio,
+  video {
+    display: inline-block;
+  }
+  audio:not([controls]) {
+    display: none;
+    height: 0;
+  }
+  img {
+    border-style: none;
+  }
+  svg:not(:root) {
+    overflow: hidden;
+  }
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+  }
+  button,
+  input {
+    overflow: visible;
+  }
+  button,
+  select {
+    text-transform: none;
+  }
+  button,
+  html [type="button"],
+  [type="reset"],
+  [type="submit"] {
+    -webkit-appearance: button;
+  }
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  fieldset {
+    padding: 0.35em 0.75em 0.625em;
+  }
+  legend {
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal;
+  }
+  progress {
+    display: inline-block;
+    vertical-align: baseline;
+  }
+  textarea {
+    overflow: auto;
+  }
+  [type="checkbox"],
+  [type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+  }
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+  [type="search"] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px;
+  }
+  [type="search"]::-webkit-search-cancel-button,
+  [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit;
+  }
+  details,
+  menu {
+    display: block;
+  }
+  summary {
+    display: list-item;
+  }
+  canvas {
+    display: inline-block;
+  }
+  template {
+    display: none;
+  }
+  [hidden] {
+    display: none;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  
+  /*global styles*/
+  .wrapper {
+    max-width: 1400px;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-family: 'lato' sans-serif;
+    color: white;
+    background-color: #201e21;
+    font-size: 2.0rem;
+    font-weight: 100;
+  }
+  
+  .handCrafted, .linksSection, .finalSection {
+      background-color: #14171F;
+  }
+  
+  h1, h2, button, h3, 
+  .finalSectionContainer ul{
+    text-transform: uppercase;
+    font-weight: 100;
+    font-family: 'italiana', serif;
+    color:white;
+  }
+  
+  h2 {
+    font-size: 5.1rem;
+  }
+  
+  h3 {
+    margin: 0;
+  }
+  
+  a {
+    color: black;
+  }
+  
+  button {
+    border: 1px solid #faba63;
+    width: 160px;
+    background-color:#201e21;
+    padding: 10px;
+    font-size: 2.5rem;
+  }
+  
+  .sectionTwoButton {
+    background-color:#14171F;
+    line-height: 2.9rem;
+  }
+  
+  .linksSectionContainer p {
+    font-family: 'italiana', serif;
+    text-transform: uppercase;
+  }
+  
+  p {
+    line-height: 2.9rem;
+  }
+  
+  /*global styles end here*/
+  
+  /*header styles begin here*/
+  .hamburger {
+    display: none;
+  }
+  .heroHeader {
+    background-image: url(./assets/assets/header-2.jpg);
+    background-size: cover;
+    height: 80vh;
+    width: 100vw;
+  }
+  
+  .navLinks {
+    color: #faba63;
+    list-style-type: none;
+    font-family: 'lato', sans-serif;
+    font-size: 2.1rem;
+    display: flex;
+    align-content: flex-start;
+    width: 50%;
+  }
+  
+   .navItem {
+    padding-left: 50px;
+  }
+  
+  h1 {
+    font-size: 16.2rem;
+    line-height: 140.4px;
+    width: 35%;
+    margin-left: 150px;
+    margin-top: 240px;
+    font-weight: 100;
+    text-align: right;
+  
+  }
+  
+  .jewelers {
+    display: block;
+    color:#faba63;
+    font-size: 4.5rem;
+    line-height: 46px;
+    font-family: 'Lato', sans-serif;
+  
+  }
+  
+  .ra {
+    display: block;
+  }
+  
+  .socialMediaLinks {
+    position: relative;
+  }
+  
+  .iconContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 50px;
+    bottom: -65px;
+  }
+  .icon {
+    color: white;
+    padding-bottom: 10px;
+    font-size: 25px;
+  }
+  /*headera styles end here*/
+  
+  
+  /*body styles begin here*/
+  
+  .handCraftedHeader{
+    font-size: 5.1rem;
+    font-weight: 100;
+    margin: 0;
+    margin-top: -10px;
+  }
+  
+  .handCraftedContent {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60%;
+    align-items:flex-start;
+  }
+  
+  .handCraftedContainer {
+      display: flex;
+      justify-content: space-evenly;
+      margin: 0, auto;
+      height: 55vh;
+      align-items: center;
+  }
+  
+  .iconGroup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  i {
+    font-size: 50px;
+    color: #faba63;
+  }
+  
+  .linksSectionContainer {
+      display: flex;
+      justify-content:space-evenly; 
+      padding: 50px;
+  }
+  
+  .handsImage {
+      height: 60%;
+      width: 25%;
+  }
+  
+  .socialMediaLinks {
+      color: white;
+  }
+  
+  h3 {
+      text-transform: uppercase;
+  }
+  
+  .latestCollectionHeader {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 0px;
+  }
+  
+  .latestCollection {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  .imageContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .imageContainer img {
+    height: auto;
+    width: calc((100% / 3) - 30px);
+  }
+  
+  /*gallery content styling begins here*/
+  .topRow, .bottomRow {
+    display: flex;
+    align-items: center;
+    height: 50vh;
+  }
+  
+  .sustainableMaterialsContent {
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
+  .sustainableMaterialsContent h2, 
+  .mixMatchContent h2 {
+    margin: 0;
+  }
+  
+  
+  .mixMatchContent {
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  
+  .topRowImg, .bottomRowImg {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+  }
+  
+  .topRowImg img,
+  .bottomRowImg img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%
+  }
+  
+  /*gallery conten styling ends here*/
+  
+  /*final section styles begin here*/
+  .finalSectionContainer {
+    display: flex;
+    justify-content: space-between;
+    height: 25vh;
+    align-items: center;
+  }
+  .finalSectionContainer ul {
+    list-style-type: none;
+  }
+  
+  .finalSection p {
+    margin: 0;
+  }
+  
+  .formStuff {
+    display: flex;
+  }
+  .form {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  input {
+    height: 50%;
+    width: 100%;
+  }
+  
+  .flexyForm {
+    display: flex;
+  }
+  
+  .subscribe {
+    text-transform: uppercase;
+    background: black;
+    border: none;
+    font-size: 2.0rem;
+    padding: 0;
+  
+  }
+  /*body styles end here*/
+  
+  
+  /* footer styles begin here*/
+  .copyrightStatement {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+  
+  .copyrightStatement p {
+   margin: 0;
+  }
+  
+  .copyright {
+    font-size: 100%;
+    color: white;
+  }
+  /*footer styles end here*/
+  
+  @media all and (max-width:550px) {
+    .navLinks, .iconContainer {
+      display: none;
+    }
+  
+    .hamburger {
+      text-align: right;
+      display: block;
+      padding: 20px;
+      
+    }
+    .fa-bars {
+      color: white;
+    }
+  
+    .heroHeader {
+      background-image: url(./assets/assets/header-1.jpg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 100vh;
+    }
+  
+    h1 {
+      font-size: 6rem;
+      line-height: 60px;
+      width: 45%;
+      margin-left: 40px;
+      font-weight: 100;
+    
+    }
+    .handCraftedContainer {
+      display: flex;
+      flex-direction: column;
+      background-image: url(./assets/assets/kyle-frederick-1042416-unsplash.jpg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 100vh;
+    }
+    .handsImage {
+      display: none;
+    }
+  
+    .handCraftedContent {
+      margin-top: 300px;
+      width: 90%;
+    }
+  
+    .handCraftedHeader {
+      text-align: center;
+      font-size: 4rem;
+    }
+  
+    .sectionTwoButton, .galleryButton  {
+      display: flex;
+      align-self: center;
+    }
+  
+    .hide {
+      display: none;
+    }
+  
+    .imageContainer{
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+    .imageContainer img {
+      width: 50%;
+  
+    }
+    
+    .latestCollectionHeader {
+      font-size: 4rem;
+    }
+  
+    .linksSectionContainer {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .topRow{
+      display: flex;
+      flex-direction: column-reverse;
+      height: 100vh;
+    }
+  
+    .topRowImg {
+      background-image: url(./assets/assets/andie-gomez-acebo-744590-unsplash.jpg);
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  
+    .hideThis {
+    display: none;
+   }
+  
+   .sustainableMaterialsContent {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+  
+   .bottomRow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+   }
+  
+   .finalSectionContainer {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: space-evenly;
+   }
+  
+   .finalSectionContainer ul {
+    display: flex;
+   
+   }
+  
+   .finalSectionContainer li {
+    padding-right: 10px;
+   }
+  
+   .contact {
+    text-align: center;
+   }
+  
+   .flexyForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+  
+   .subscribe, input{
+    width: 400px;
+    font-size: larger;
+    text-align: center;
+    height: 5vh;
+    padding-bottom: 10px;
+   }
+  
+  }
