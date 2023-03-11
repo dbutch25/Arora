@@ -630,6 +630,13 @@ html {
       background-size: contain;
       background-repeat: no-repeat;
     }
+
+    .bottomRowImg img {
+      background-image: url(./assets/assets/image-2-copy@2x.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 80%;
+    }
   
     .hideThis {
     display: none;
@@ -641,6 +648,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 75px;
    }
 
    .mixMatchContent {
@@ -649,6 +657,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 75px;
    }
 
    
